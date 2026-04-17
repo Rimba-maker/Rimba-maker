@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 150" width="1200" height="150">
+  <defs>
+    <linearGradient id="footerBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#0F3D2E"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="150" fill="url(#footerBg)"/>
+
+  <!-- Running coin row -->
+  <g>
+    <circle cx="0" cy="40" r="10" fill="#FFD700" stroke="#EF4444" stroke-width="2">
+      <animate attributeName="cx" values="-20;1220" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="0" cy="40" r="10" fill="#FFD700" stroke="#EF4444" stroke-width="2">
+      <animate attributeName="cx" values="-20;1220" dur="6s" begin="1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="0" cy="40" r="10" fill="#FFD700" stroke="#EF4444" stroke-width="2">
+      <animate attributeName="cx" values="-20;1220" dur="6s" begin="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="0" cy="40" r="10" fill="#FFD700" stroke="#EF4444" stroke-width="2">
+      <animate attributeName="cx" values="-20;1220" dur="6s" begin="3s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Mario running -->
+  <g>
+    <animateTransform attributeName="transform" type="translate"
+      values="-40,0; 1240,0" dur="6s" repeatCount="indefinite"/>
+    <circle cx="30" cy="90" r="12" fill="#EF4444"/>
+    <rect x="25" y="95" width="10" height="8" fill="#FFDBAC"/>
+    <rect x="20" y="103" width="20" height="10" fill="#8B5CF6"/>
+    <rect x="22" y="113" width="6" height="6" fill="#2D6A4F">
+      <animate attributeName="y" values="113;110;113" dur="0.2s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="32" y="113" width="6" height="6" fill="#2D6A4F">
+      <animate attributeName="y" values="113;110;113" dur="0.2s" begin="0.1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Text -->
+  <text x="600" y="75" text-anchor="middle" font-family="'Courier New', monospace"
+    font-size="20" font-weight="900" fill="#FFFFFF">★ THANKS FOR VISITING ★</text>
+  <text x="600" y="105" text-anchor="middle" font-family="'Courier New', monospace"
+    font-size="12" fill="#FFFFFF" opacity="0.9">
+    ► GAME NOT OVER — STILL PLAYING ◄
+  </text>
+  <text x="600" y="130" text-anchor="middle" font-family="'Courier New', monospace"
+    font-size="11" fill="#FFD700">
+    made with 🍄 vibe coding + 🍵 matcha + ❤️  from the jungle 🌿
+  </text>
+</svg>
