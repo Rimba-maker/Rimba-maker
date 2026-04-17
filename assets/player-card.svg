@@ -32,10 +32,10 @@
 
   <!-- Player info -->
   <g font-family="'Courier New', monospace" font-size="14" fill="#FFFFFF">
-    <text x="30" y="90">🔴 PLAYER    : Caesar "Rimba" Bimantara</text>
+    <text x="30" y="90">🔴 PLAYER     : Gat</text>
     <text x="30" y="115">⭐ CLASS     : Solo Full-Stack Developer</text>
     <text x="30" y="140">🍄 POWER-UP  : Next.js + Supabase + TypeScript</text>
-    <text x="30" y="165">📍 LOCATION  : Padang, West Sumatra 🇮🇩</text>
+    <text x="30" y="165">📍 LOCATION  : Indonesia 🇮🇩</text>
     <text x="30" y="190">🏁 MISSION   : Build products. Ship relentlessly.</text>
   </g>
 
