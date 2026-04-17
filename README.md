@@ -38,7 +38,7 @@
 > **Marryio** — Digital wedding invitation SaaS targeting the Indonesian market. 13+ premium templates, custom domains, RSVP management, guestbook, gift registry, analytics. Built solo end-to-end with Next.js 14 App Router, Supabase, Tailwind v4, TypeScript.
 
 **Architecture:** Turborepo monorepo · Feature-Sliced Design · Open/Closed principle
-**Status:** 🟢 Production · 🎯 Scaling to West Sumatra market first, then nationwide
+**Status:** 🟢 Production · 🎯 Scaling to Indonesian market first, then worldwide
 
 [![Visit Marryio](https://img.shields.io/badge/🌐_marryio.com-0F3D2E?style=for-the-badge&logoColor=white)](https://marryio.com)
 [![Portfolio](https://img.shields.io/badge/🌿_rimba.dev-2D6A4F?style=for-the-badge&logoColor=white)](https://rimba.dev)
