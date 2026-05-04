@@ -107,16 +107,6 @@ const rimba = {
 
 ---
 
-## 🗺️ Activity Map
-
-<div align="center">
-
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Rimba-maker&bg_color=0F3D2E&color=D4AF37&line=FFD700&point=EF4444&area=true&hide_border=true&custom_title=Contribution%20Activity%20in%20the%20Jungle)](https://github.com/Rimba-maker)
-
-</div>
-
----
-
 ## 🪠 Warp Pipes
 
 <div align="center">
