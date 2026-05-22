@@ -23,36 +23,22 @@
 
 ---
 
-## 🏰 Player Card
-
-<div align="center">
-
-<img src="./assets/player-card.svg" width="800" alt="player card"/>
-
-</div>
-
----
-
 ## 🧱 Inventory — Tech Stack
 
 <div align="center">
 
-<!-- Row 1: Languages -->
 <img src="https://skillicons.dev/icons?i=ts,js,python,kotlin,cs,gdscript&perline=6" alt="languages"/>
 
 <br/>
 
-<!-- Row 2: Frontend -->
 <img src="https://skillicons.dev/icons?i=nextjs,react,astro,tailwind,framermotion,gsap&perline=6" alt="frontend"/>
 
 <br/>
 
-<!-- Row 3: Backend & DB -->
 <img src="https://skillicons.dev/icons?i=supabase,fastapi,prisma,postgres,redis,cloudflare&perline=6" alt="backend"/>
 
 <br/>
 
-<!-- Row 4: Tools & Infra -->
 <img src="https://skillicons.dev/icons?i=git,github,vscode,turborepo,godot,figma&perline=6" alt="tools"/>
 
 </div>
@@ -120,27 +106,6 @@
 <div align="center">
 
 <img src="./metrics.svg" alt="metrics"/>
-
-<br/>
-
-<a href="https://github.com/Rimba-maker">
-  <img height="165em" src="https://github-readme-stats.vercel.app/api?username=Rimba-maker&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&title_color=D4AF37&icon_color=FFD700&text_color=FFFFFF&bg_color=0F3D2E&ring_color=D4AF37"/>
-  <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rimba-maker&layout=compact&count_private=true&hide_border=true&title_color=D4AF37&text_color=FFFFFF&bg_color=0F3D2E&langs_count=8"/>
-</a>
-
-<br/><br/>
-
-![GitHub Streak](https://streak-stats.demolab.com?user=Rimba-maker&hide_border=true&background=0F3D2E&ring=D4AF37&fire=EF4444&currStreakLabel=D4AF37&sideLabels=D4AF37&dates=FFFFFF&stroke=D4AF37&currStreakNum=FFD700)
-
-</div>
-
----
-
-## 🗺️ Activity Map
-
-<div align="center">
-
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Rimba-maker&bg_color=0F3D2E&color=D4AF37&line=FFD700&point=EF4444&area=true&hide_border=true&custom_title=Contribution%20Activity%20in%20the%20Jungle)](https://github.com/Rimba-maker)
 
 </div>
 
