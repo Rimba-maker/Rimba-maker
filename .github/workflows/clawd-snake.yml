@@ -1,0 +1,37 @@
+name: Clawd Eats Commits
+
+on:
+  schedule:
+    - cron: "17 0 * * *"   # every day, so the grid (and the animation) always matches your real contributions
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - scripts/clawd-snake.mjs
+      - .github/workflows/clawd-snake.yml
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Build Clawd snake from live contribution data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/clawd-snake.mjs --user "${{ github.repository_owner }}" --out assets/clawd-snake.svg
+
+      - name: Commit if the grid changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/clawd-snake.svg
+          git diff --staged --quiet || (git commit -m "Update clawd-snake.svg - [Skip GitHub Action]" && git push)

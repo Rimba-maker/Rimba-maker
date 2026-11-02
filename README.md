@@ -10,15 +10,11 @@
 
 ---
 
-## 🐍 Hungry Snake
+## 🐍 Hungry Clawd
 
 <div align="center">
 
-<img src="./assets/clawd/scared.jpg" width="150" alt="Scared Clawd"/>&nbsp;&nbsp;<img src="./assets/clawd/suspicious.jpg" width="150" alt="Suspicious Clawd"/>&nbsp;&nbsp;<img src="./assets/clawd/nervous.jpg" width="150" alt="Nervous Clawd"/>
-
-<sub>Clawd: "please don't eat my commits..."</sub>
-
-<img src="https://raw.githubusercontent.com/Rimba-maker/Rimba-maker/output/github-contribution-grid-snake-dark.svg" alt="snake eating contributions"/>
+<img src="./assets/clawd-snake.svg" width="900" alt="Clawd the snake eating my contribution grid, Pac-Man style"/>
 
 </div>
 
