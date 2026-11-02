@@ -1,21 +1,22 @@
-<!-- ====================== HERO (animated) ====================== -->
 <div align="center">
 
-<img src="./assets/hero.svg" width="100%" alt="Rimba-maker hero"/>
-
-</div>
-
-<!-- ====================== TYPING (animated) ====================== -->
-<div align="center">
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Patrick+Hand&size=24&duration=2500&pause=800&color=C85F34&center=true&vCenter=true&width=720&lines=%E2%96%BA+RIMBA-MAKER.EXE+LOADED!;%F0%9F%8D%84+SOLO+FULL-STACK+DEV+FROM+%F0%9F%87%AE%F0%9F%87%A9;%F0%9F%8C%BF+BUILDING+MARRYIO+%E2%80%94+WEDDING+SAAS;%E2%AD%90+OPEN+FOR+REMOTE+OPPORTUNITIES;%F0%9F%94%A5+LET%27S+A+GO!!)](https://git.io/typing-svg)
+<img src="./assets/hero.svg" width="100%" alt="Rimba-maker × Clawd"/>
 
 </div>
 
 <br/>
 
-<!-- ====================== SNAKE (animated) ====================== -->
+> **Rimba × Clawd** — cerita singkat tentang satu hari ngoding Marryio bareng Claude. Semua 31 emosi Clawd muncul di sini. Mari baca dari atas. ↓
+
+---
+
+## 🐍 Ular Lapar
+
 <div align="center">
+
+<img src="./assets/clawd/scared.jpg" width="150" alt="Clawd takut"/>&nbsp;&nbsp;<img src="./assets/clawd/suspicious.jpg" width="150" alt="Clawd curiga"/>&nbsp;&nbsp;<img src="./assets/clawd/nervous.jpg" width="150" alt="Clawd gugup"/>
+
+<sub>Clawd: "tolong jangan makan commit-ku..."</sub>
 
 <img src="https://raw.githubusercontent.com/Rimba-maker/Rimba-maker/output/github-contribution-grid-snake-dark.svg" alt="snake eating contributions"/>
 
@@ -23,98 +24,28 @@
 
 ---
 
-## 🧱 Toolbox — Tech Stack
+## 🎒 Inventory
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=ts,js,python,kotlin,cs,gdscript&perline=6" alt="languages"/>
-
-<br/>
-
-<img src="https://skillicons.dev/icons?i=nextjs,react,astro,tailwind,framermotion,gsap&perline=6" alt="frontend"/>
-
-<br/>
-
-<img src="https://skillicons.dev/icons?i=supabase,fastapi,prisma,postgres,redis,cloudflare&perline=6" alt="backend"/>
-
-<br/>
-
-<img src="https://skillicons.dev/icons?i=go,svelte,claude,git,github,vscode&perline=6" alt="new stack + tools"/>
-
-</div>
-
-<br/>
-
-<div align="center">
-
-**🔴 Languages**
-
-![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-%2314354C.svg?style=for-the-badge&logo=python&logoColor=FFD43B)
-![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
-![Kotlin](https://img.shields.io/badge/Kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white)
-![GDScript](https://img.shields.io/badge/GDScript-%23478CBF.svg?style=for-the-badge&logo=godotengine&logoColor=white)
-
-**🆕 Now Learning / Shipping With**
-
-![Go](https://img.shields.io/badge/Go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
-![SvelteKit](https://img.shields.io/badge/SvelteKit-%23FF3E00.svg?style=for-the-badge&logo=svelte&logoColor=white)
-![Surge](https://img.shields.io/badge/Surge-%23E8590C.svg?style=for-the-badge&logoColor=white&label=%F0%9F%8C%8A)
-![Claude](https://img.shields.io/badge/Claude-%23D97757.svg?style=for-the-badge&logo=claude&logoColor=white)
-
-**⭐ Royal Stack — Vibe Coding Chosen Ones**
-
-![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white)
-![React](https://img.shields.io/badge/React-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![Astro](https://img.shields.io/badge/Astro-%23FF5D01.svg?style=for-the-badge&logo=astro&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-%233FCF8E.svg?style=for-the-badge&logo=supabase&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
-
-**🔵 Frontend Motion & UI**
-
-![Framer Motion](https://img.shields.io/badge/Framer_Motion-%230055FF.svg?style=for-the-badge&logo=framer&logoColor=white)
-![GSAP](https://img.shields.io/badge/GSAP-%2388CE02.svg?style=for-the-badge&logo=greensock&logoColor=black)
-![Shadcn UI](https://img.shields.io/badge/Shadcn_UI-%23000000.svg?style=for-the-badge&logo=shadcnui&logoColor=white)
-![Zustand](https://img.shields.io/badge/Zustand-%23443E38.svg?style=for-the-badge&logoColor=white)
-
-**🟣 Backend, DB & Infra**
-
-![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-![Upstash](https://img.shields.io/badge/Upstash-%2300E9A3.svg?style=for-the-badge&logo=upstash&logoColor=black)
-![Cloudflare R2](https://img.shields.io/badge/Cloudflare_R2-%23F38020.svg?style=for-the-badge&logo=cloudflare&logoColor=white)
-![Resend](https://img.shields.io/badge/Resend-%23000000.svg?style=for-the-badge&logoColor=white)
-![Midtrans](https://img.shields.io/badge/Midtrans-%230099CC.svg?style=for-the-badge&logoColor=white)
-
-**🛠️ Tooling & Workflow**
-
-![Turborepo](https://img.shields.io/badge/Turborepo-%23EF4444.svg?style=for-the-badge&logo=turborepo&logoColor=white)
-![Biome](https://img.shields.io/badge/Biome-%2360A5FA.svg?style=for-the-badge&logo=biome&logoColor=white)
-![Claude AI](https://img.shields.io/badge/Claude_AI-%23D97706.svg?style=for-the-badge&logo=anthropic&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
-![Cloudflare Pages](https://img.shields.io/badge/Cloudflare_Pages-%23F38020.svg?style=for-the-badge&logo=cloudflare&logoColor=white)
-![Godot](https://img.shields.io/badge/Godot-%23FFFFFF.svg?style=for-the-badge&logo=godot-engine)
-
-**🍄 Vibe Power-ups**
-
-![Flow State](https://img.shields.io/badge/Flow_State-ACTIVATED-%238B5CF6?style=for-the-badge)
-![Matcha](https://img.shields.io/badge/Matcha-∞-%23C85F34?style=for-the-badge)
-![Ship Rate](https://img.shields.io/badge/Ship_Rate-MAX-%23FFD700?style=for-the-badge)
-![Vibe Coding](https://img.shields.io/badge/Vibe_Coding-100%25-%23EF4444?style=for-the-badge)
+<img src="./assets/inventory.svg" width="900" alt="Tech stack inventory: TypeScript, Go, SvelteKit, Surge, Claude, dan lainnya"/>
 
 </div>
 
 ---
 
-## 🧡 Meet Clawd
+## 📖 Cerita
 
 <div align="center">
 
-<img src="./assets/clawd-emotions.webp" width="100%" alt="Clawd emotions, hand-painted animation"/>
-
-<sub>Clawd animation by <a href="https://github.com/JohnHeibel/ClaudeAnimationBase">JohnHeibel/ClaudeAnimationBase</a> (MIT)</sub>
+<img src="./assets/story-1.svg" width="880" alt="Bab 1"/>
+<img src="./assets/story-2.svg" width="880" alt="Bab 2"/>
+<img src="./assets/story-3.svg" width="880" alt="Bab 3"/>
+<img src="./assets/story-4.svg" width="880" alt="Bab 4"/>
+<img src="./assets/story-5.svg" width="880" alt="Bab 5"/>
+<img src="./assets/story-6.svg" width="880" alt="Bab 6"/>
+<img src="./assets/story-7.svg" width="880" alt="Bab 7"/>
+<img src="./assets/story-8.svg" width="880" alt="Bab 8"/>
 
 </div>
 
@@ -124,32 +55,22 @@
 
 <div align="center">
 
+<img src="./assets/clawd/proud.jpg" width="130" alt="Clawd bangga"/>&nbsp;<img src="./assets/clawd/cool.jpg" width="130" alt="Clawd keren"/>&nbsp;<img src="./assets/clawd/smug.jpg" width="130" alt="Clawd puas"/>
+
 <img src="./metrics.svg" alt="metrics"/>
 
 </div>
 
 ---
 
-## 🕳️ Rabbit Holes — Find Me
-
 <div align="center">
 
-<img src="./assets/warp-pipes.svg" width="600" alt="warp pipes"/>
+<img src="./assets/clawd-emotions.webp" width="100%" alt="Semua emosi Clawd, animasi cat tangan"/>
 
-<br/><br/>
+<sub>Clawd & animasi oleh <a href="https://github.com/JohnHeibel/ClaudeAnimationBase">JohnHeibel/ClaudeAnimationBase</a> (MIT) · lisensi di <code>assets/CLAWD-LICENSE.txt</code></sub>
 
-[![Portfolio](https://img.shields.io/badge/🌿_rimba.dev-2B2118?style=for-the-badge&logoColor=D97757)](https://rimba-dev.caesarbimantara00.workers.dev/)
-[![Marryio](https://img.shields.io/badge/💍_marryio.id-C85F34?style=for-the-badge&logoColor=FFD700)](https://marryio.id/)
-[![Instagram](https://img.shields.io/badge/@ccbmantara-EF4444?style=for-the-badge&logo=Instagram&logoColor=white)](https://instagram.com/ccbmantara)
-[![Discord](https://img.shields.io/badge/gaztorgat-8B5CF6?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/gaztorgat)
+<br/>
 
-</div>
-
----
-
-<!-- ====================== FOOTER (animated) ====================== -->
-<div align="center">
-
-<img src="./assets/footer.svg" width="100%" alt="footer"/>
+[rimba.dev](https://rimba-dev.caesarbimantara00.workers.dev/) · [marryio.id](https://marryio.id/) · [@ccbmantara](https://instagram.com/ccbmantara) · Discord: gaztorgat
 
 </div>
