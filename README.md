@@ -8,7 +8,7 @@
 <!-- ====================== TYPING (animated) ====================== -->
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=15&duration=2500&pause=800&color=D4AF37&center=true&vCenter=true&width=720&lines=%E2%96%BA+RIMBA-MAKER.EXE+LOADED!;%F0%9F%8D%84+SOLO+FULL-STACK+DEV+FROM+%F0%9F%87%AE%F0%9F%87%A9;%F0%9F%8C%BF+BUILDING+MARRYIO+%E2%80%94+WEDDING+SAAS;%E2%AD%90+OPEN+FOR+REMOTE+OPPORTUNITIES;%F0%9F%94%A5+LET%27S+A+GO!!)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Patrick+Hand&size=24&duration=2500&pause=800&color=C85F34&center=true&vCenter=true&width=720&lines=%E2%96%BA+RIMBA-MAKER.EXE+LOADED!;%F0%9F%8D%84+SOLO+FULL-STACK+DEV+FROM+%F0%9F%87%AE%F0%9F%87%A9;%F0%9F%8C%BF+BUILDING+MARRYIO+%E2%80%94+WEDDING+SAAS;%E2%AD%90+OPEN+FOR+REMOTE+OPPORTUNITIES;%F0%9F%94%A5+LET%27S+A+GO!!)](https://git.io/typing-svg)
 
 </div>
 
@@ -23,7 +23,7 @@
 
 ---
 
-## 🧱 Inventory — Tech Stack
+## 🧱 Toolbox — Tech Stack
 
 <div align="center">
 
@@ -39,7 +39,7 @@
 
 <br/>
 
-<img src="https://skillicons.dev/icons?i=git,github,vscode,turborepo,godot,figma&perline=6" alt="tools"/>
+<img src="https://skillicons.dev/icons?i=go,svelte,claude,git,github,vscode&perline=6" alt="new stack + tools"/>
 
 </div>
 
@@ -55,6 +55,13 @@
 ![Kotlin](https://img.shields.io/badge/Kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white)
 ![GDScript](https://img.shields.io/badge/GDScript-%23478CBF.svg?style=for-the-badge&logo=godotengine&logoColor=white)
+
+**🆕 Now Learning / Shipping With**
+
+![Go](https://img.shields.io/badge/Go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
+![SvelteKit](https://img.shields.io/badge/SvelteKit-%23FF3E00.svg?style=for-the-badge&logo=svelte&logoColor=white)
+![Surge](https://img.shields.io/badge/Surge-%23E8590C.svg?style=for-the-badge&logoColor=white&label=%F0%9F%8C%8A)
+![Claude](https://img.shields.io/badge/Claude-%23D97757.svg?style=for-the-badge&logo=claude&logoColor=white)
 
 **⭐ Royal Stack — Vibe Coding Chosen Ones**
 
@@ -93,9 +100,21 @@
 **🍄 Vibe Power-ups**
 
 ![Flow State](https://img.shields.io/badge/Flow_State-ACTIVATED-%238B5CF6?style=for-the-badge)
-![Matcha](https://img.shields.io/badge/Matcha-∞-%232D6A4F?style=for-the-badge)
+![Matcha](https://img.shields.io/badge/Matcha-∞-%23C85F34?style=for-the-badge)
 ![Ship Rate](https://img.shields.io/badge/Ship_Rate-MAX-%23FFD700?style=for-the-badge)
 ![Vibe Coding](https://img.shields.io/badge/Vibe_Coding-100%25-%23EF4444?style=for-the-badge)
+
+</div>
+
+---
+
+## 🧡 Meet Clawd
+
+<div align="center">
+
+<img src="./assets/clawd-emotions.webp" width="100%" alt="Clawd emotions, hand-painted animation"/>
+
+<sub>Clawd animation by <a href="https://github.com/JohnHeibel/ClaudeAnimationBase">JohnHeibel/ClaudeAnimationBase</a> (MIT)</sub>
 
 </div>
 
@@ -111,7 +130,7 @@
 
 ---
 
-## 🪠 Warp Pipes — Find Me
+## 🕳️ Rabbit Holes — Find Me
 
 <div align="center">
 
@@ -119,8 +138,8 @@
 
 <br/><br/>
 
-[![Portfolio](https://img.shields.io/badge/🌿_rimba.dev-0F3D2E?style=for-the-badge&logoColor=D4AF37)](https://rimba-dev.caesarbimantara00.workers.dev/)
-[![Marryio](https://img.shields.io/badge/💍_marryio.id-2D6A4F?style=for-the-badge&logoColor=FFD700)](https://marryio.id/)
+[![Portfolio](https://img.shields.io/badge/🌿_rimba.dev-2B2118?style=for-the-badge&logoColor=D97757)](https://rimba-dev.caesarbimantara00.workers.dev/)
+[![Marryio](https://img.shields.io/badge/💍_marryio.id-C85F34?style=for-the-badge&logoColor=FFD700)](https://marryio.id/)
 [![Instagram](https://img.shields.io/badge/@ccbmantara-EF4444?style=for-the-badge&logo=Instagram&logoColor=white)](https://instagram.com/ccbmantara)
 [![Discord](https://img.shields.io/badge/gaztorgat-8B5CF6?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/gaztorgat)
 
