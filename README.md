@@ -24,6 +24,8 @@
 
 <div align="center">
 
+<img src="./assets/skills.webp" width="900" alt="Clawd plants skills one by one until the clearing becomes a forest"/>
+
 <img src="./assets/inventory.svg" width="900" alt="Skills: TypeScript, JavaScript, Go, Next.js, React, Astro, SvelteKit, Tailwind, Supabase, AWS, Claude and more"/>
 
 </div>
