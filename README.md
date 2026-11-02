@@ -20,11 +20,11 @@
 
 ---
 
-## 🎒 Inventory
+## 🌳 Skills
 
 <div align="center">
 
-<img src="./assets/inventory.svg" width="900" alt="Tech stack inventory: TypeScript, Go, SvelteKit, Surge, Claude and more"/>
+<img src="./assets/inventory.svg" width="900" alt="Skills: TypeScript, JavaScript, Go, Next.js, React, Astro, SvelteKit, Tailwind, Supabase, AWS, Claude and more"/>
 
 </div>
 
