@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/hero.svg" width="100%" alt="Rimba-maker × Clawd"/>
+<img src="./assets/hero.webp" width="100%" alt="Hello guys! Clawd and friends chase a butterfly from dawn to night"/>
 
 </div>
 
