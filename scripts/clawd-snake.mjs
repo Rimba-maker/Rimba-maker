@@ -32,26 +32,34 @@ const INK = '#2B2118', TERRA = '#D97757', PAPER = '#EFE7D4';
 const LV = ['#E3D9C0', '#F3C7AB', '#E79E76', '#D2693A', '#9E452A'];
 const FONT = "'Segoe Print','Bradley Hand','Comic Sans MS','Chalkboard SE',cursive";
 
-// ---------- the walk: a boustrophedon over cells that exist ----------
-const rows = c => weeks[c].length;                       // rows present in column c (rows 0..n-1 are contiguous)
-const steps = [];                                         // [col,row] per step, always orthogonal
-let dir = 1;                                              // 1 = down, -1 = up
-for (let c = 0; c < COLS; c++) {
-  const n = rows(c);
-  if (steps.length) {                                     // arrive from the previous column on the same row, clamped into this column
-    const [pc, pr] = steps[steps.length - 1];
-    const want = Math.min(pr, n - 1);
-    for (let r = pr + (want > pr ? 1 : -1); want !== pr && (want > pr ? r <= want : r >= want); r += want > pr ? 1 : -1) steps.push([pc, r]);
-    steps.push([c, want]);
-    dir = want === 0 ? 1 : -1; if (n === 1) dir = 1;
-    const start = want;
-    for (let r = start + dir; r >= 0 && r < n; r += dir) steps.push([c, r]);
-    continue;
+// ---------- the walk: a wandering, snake-like hunt over cells that exist ----------
+// Seeded by the date (or --seed), so a day's path is stable but it changes every day.
+const seedStr = arg('seed', new Date().toISOString().slice(0, 10));
+let h = 1779033703; for (const ch of seedStr) h = Math.imul(h ^ ch.charCodeAt(0), 3432918353), h = (h << 13) | (h >>> 19);
+const rand = () => { h = Math.imul(h ^ (h >>> 16), 2246822507); h = Math.imul(h ^ (h >>> 13), 3266489909); return ((h ^= h >>> 16) >>> 0) / 4294967296; };
+const rows = c => weeks[c].length;                       // rows 0..n-1 exist in column c (only the last week is partial)
+const exists = (c, r) => c >= 0 && c < COLS && r >= 0 && r < rows(c);
+const left = new Set(); weeks.forEach((col, c) => col.forEach((v, r) => { if (v > 0) left.add(c + ',' + r); }));
+const steps = [[0, 0]]; left.delete('0,0');
+let pos = [0, 0], heading = [0, 1];
+while (left.size) {
+  // hunt one of the 4 nearest commits, favouring the closest
+  const cand = [...left].map(k => k.split(',').map(Number)).map(([c, r]) => [c, r, Math.abs(c - pos[0]) + Math.abs(r - pos[1])]).sort((x, y) => x[2] - y[2]).slice(0, 4);
+  const tgt = cand[Math.floor(rand() ** 2 * cand.length)];
+  while (pos[0] !== tgt[0] || pos[1] !== tgt[1]) {
+    const dx = Math.sign(tgt[0] - pos[0]), dy = Math.sign(tgt[1] - pos[1]), moves = [];
+    if (dx && exists(pos[0] + dx, pos[1])) moves.push([dx, 0]);
+    if (dy && exists(pos[0], pos[1] + dy)) moves.push([0, dy]);
+    if (!moves.length) moves.push([0, -1]);              // blocked by the short last column: climb until the next column exists
+    const keep = moves.find(m => m[0] === heading[0] && m[1] === heading[1]);
+    const mv = keep && rand() < .7 ? keep : moves[Math.floor(rand() * moves.length)];   // keep going straight most of the time, turn now and then
+    heading = mv; pos = [pos[0] + mv[0], pos[1] + mv[1]];
+    steps.push([pos[0], pos[1]]); left.delete(pos[0] + ',' + pos[1]);
   }
-  for (let r = 0; r < n; r++) steps.push([c, r]);
-  dir = -1;
 }
-const DT = 0.085, HOLD = 3.4, MOVE = (steps.length - 1) * DT, T = +(MOVE + HOLD).toFixed(3);
+// safety net: every step is on a real cell and exactly one cell from the previous one (this is what the old generator got wrong)
+steps.forEach(([c, r], i) => { if (!exists(c, r) || (i && Math.abs(c - steps[i - 1][0]) + Math.abs(r - steps[i - 1][1]) !== 1)) throw new Error(`bad step ${i}: ${c},${r}`); });
+const HOLD = 3.4, DT = Math.min(0.085, 44 / steps.length), MOVE = (steps.length - 1) * DT, T = +(MOVE + HOLD).toFixed(3);
 const firstVisit = new Map(); steps.forEach(([c, r], i) => { const k = c + ',' + r; if (!firstVisit.has(k)) firstVisit.set(k, i); });
 const pathD = steps.map(([c, r], i) => `${i ? 'L' : 'M'}${cx(c)} ${cy(r)}`).join(' ');
 const mKey = (MOVE / T).toFixed(5);
