@@ -36,29 +36,7 @@
 
 <div align="center">
 
-<img src="./assets/story-1.svg" width="880" alt="Chapter 1"/>
-<img src="./assets/story-1.webp" width="880" alt="Clawd acting out chapter 1"/>
-
-<img src="./assets/story-2.svg" width="880" alt="Chapter 2"/>
-<img src="./assets/story-2.webp" width="880" alt="Clawd acting out chapter 2"/>
-
-<img src="./assets/story-3.svg" width="880" alt="Chapter 3"/>
-<img src="./assets/story-3.webp" width="880" alt="Clawd acting out chapter 3"/>
-
-<img src="./assets/story-4.svg" width="880" alt="Chapter 4"/>
-<img src="./assets/story-4.webp" width="880" alt="Clawd acting out chapter 4"/>
-
-<img src="./assets/story-5.svg" width="880" alt="Chapter 5"/>
-<img src="./assets/story-5.webp" width="880" alt="Clawd acting out chapter 5"/>
-
-<img src="./assets/story-6.svg" width="880" alt="Chapter 6"/>
-<img src="./assets/story-6.webp" width="880" alt="Clawd acting out chapter 6"/>
-
-<img src="./assets/story-7.svg" width="880" alt="Chapter 7"/>
-<img src="./assets/story-7.webp" width="880" alt="Clawd acting out chapter 7"/>
-
-<img src="./assets/story-8.svg" width="880" alt="Chapter 8"/>
-<img src="./assets/story-8.webp" width="880" alt="Clawd acting out chapter 8"/>
+<img src="./assets/story.webp" width="100%" alt="Clawd builds something from scratch on a rainy night: idea, plan, design, build, ship"/>
 
 </div>
 
