@@ -6,7 +6,7 @@
 
 <br/>
 
-> **Rimba × Clawd** — one day of building Marryio with Claude, told through all 31 emotions of Clawd, the hand-painted mascot. Read on. ↓
+> **Rimba × Claude** — addicted to building, consistent in learning. Every day: ship something new, pick up a new skill. ↓
 
 ---
 
