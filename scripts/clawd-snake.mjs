@@ -125,13 +125,13 @@ const snake = `<g>${body}<g>${head}
 // a few leaves swaying by the title, and fireflies drifting over the grid
 const leaf = (x, y, rot, col, dur, begin) => `<g transform="translate(${x} ${y}) rotate(${rot})"><g><animateTransform attributeName="transform" type="rotate" values="-8;8;-8" dur="${dur}s" begin="${begin}s" repeatCount="indefinite"/>
   <path d="M0 0 C6 -10 18 -10 24 0 C18 10 6 10 0 0Z" fill="${col}" stroke="${FOREST}" stroke-width="1.6" stroke-linejoin="round"/><path d="M2 0 H21" stroke="${FOREST}" stroke-width="1.2" opacity=".6"/></g></g>`;
-const leaves = leaf(X0 + 318, 33, -35, '#8DBF7B', 3.2, 0) + leaf(X0 + 334, 31, 15, '#5C9C5C', 2.7, .6) + leaf(X0 + 316, 40, 40, '#BAD79F', 3.6, 1.1);
+const leaves = leaf(X0 + 334, 33, -35, '#8DBF7B', 3.2, 0) + leaf(X0 + 350, 31, 15, '#5C9C5C', 2.7, .6) + leaf(X0 + 332, 40, 40, '#BAD79F', 3.6, 1.1);
 const fireflies = [[150, 150, 4.1], [420, 110, 5.3], [700, 160, 4.7], [860, 100, 6.1]].map(([x, y, d], i) => `<circle cx="${x}" cy="${y}" r="2.4" fill="#FFE9A0" opacity="0"><animate attributeName="opacity" values="0;.9;0" dur="${d}s" begin="${i * .9}s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;14 -10;-6 -18" dur="${d}s" begin="${i * .9}s" repeatCount="indefinite"/></circle>`).join('');
 const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}">
 <defs><filter id="paper" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="9"/><feColorMatrix type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.38  0 0 0 0 0.28  0 0 0 0.10 0"/></filter></defs>
 <rect width="${W}" height="${H}" rx="14" fill="${PAPER}"/><rect width="${W}" height="${H}" rx="14" filter="url(#paper)"/>
-<text x="${X0}" y="36" font-family="${FONT}" font-size="24" font-weight="700" fill="${FOREST}">Clawd is hungry for commits</text>
-<path d="M${X0} 44 Q${X0 + 140} 51 ${X0 + 300} 43" stroke="${MOSS}" stroke-width="3.4" fill="none" stroke-linecap="round"/>
+<text x="${X0}" y="36" font-family="${FONT}" font-size="24" font-weight="700" fill="${FOREST}" textLength="290" lengthAdjust="spacingAndGlyphs">Clawd is hungry for commits</text>
+<path d="M${X0} 44 Q${X0 + 140} 51 ${X0 + 290} 43" stroke="${MOSS}" stroke-width="3.4" fill="none" stroke-linecap="round"/>
 ${leaves}
 <text x="${W - X0}" y="36" text-anchor="end" font-family="${FONT}" font-size="15" fill="#5E6F52">${eaten} commit-days on the menu</text>
 ${cells}
