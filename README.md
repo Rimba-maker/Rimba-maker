@@ -6,7 +6,7 @@
 
 <br/>
 
-> **Rimba × Claude** — addicted to building, consistent in learning. Every day: ship something new, pick up a new skill. ↓
+> **Rimba × Claude** — addicted to building, consistent in learning. ↓
 
 ---
 
