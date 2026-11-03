@@ -42,6 +42,8 @@
 
 ---
 
+## 🧭 Find Me
+
 <div align="center">
 
 <img src="./assets/footer.webp" width="100%" alt="Clawd stands at a crossroads: the castle path leads to LinkedIn, the fairground to Instagram, the treehouse to my portfolio. Adios!"/>
