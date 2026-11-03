@@ -42,13 +42,11 @@
 
 ---
 
-## ⭐ Stats Board
+## 🏙️ Commit City
 
 <div align="center">
 
-<img src="./assets/clawd/proud.jpg" width="130" alt="Proud Clawd"/>&nbsp;<img src="./assets/clawd/cool.jpg" width="130" alt="Cool Clawd"/>&nbsp;<img src="./assets/clawd/smug.jpg" width="130" alt="Smug Clawd"/>
-
-<img src="./metrics.svg" alt="metrics"/>
+<img src="./assets/clawd-kaiju.svg" width="900" alt="My contributions as a 3D night city: every building is a day I shipped, and Clawd the kaiju is stomping through it"/>
 
 </div>
 
