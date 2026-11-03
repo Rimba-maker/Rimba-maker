@@ -42,24 +42,13 @@
 
 ---
 
-## 🏙️ Commit City
-
 <div align="center">
 
-<img src="./assets/clawd-kaiju.svg" width="900" alt="My contributions as a 3D night city: every building is a day I shipped, and Clawd the kaiju is stomping through it"/>
-
-</div>
-
----
-
-<div align="center">
-
-<img src="./assets/clawd-emotions.webp" width="100%" alt="All Clawd emotions, hand-painted animation"/>
-
-<sub>Clawd & animation kit by <a href="https://github.com/JohnHeibel/ClaudeAnimationBase">JohnHeibel/ClaudeAnimationBase</a> (MIT) · license in <code>assets/CLAWD-LICENSE.txt</code></sub>
+[![Instagram](https://img.shields.io/badge/@ccbmantara-C85F34?style=for-the-badge&logo=Instagram&logoColor=white)](https://instagram.com/ccbmantara)
+[![Portfolio](https://img.shields.io/badge/rimba.dev-2F4A36?style=for-the-badge&logoColor=white)](https://rimba-dev.caesarbimantara00.workers.dev/)
 
 <br/>
 
-[rimba.dev](https://rimba-dev.caesarbimantara00.workers.dev/) · [marryio.id](https://marryio.id/) · [@ccbmantara](https://instagram.com/ccbmantara) · Discord: gaztorgat
+<sub>Clawd & animation kit by <a href="https://github.com/JohnHeibel/ClaudeAnimationBase">JohnHeibel/ClaudeAnimationBase</a> (MIT) · license in <code>assets/CLAWD-LICENSE.txt</code></sub>
 
 </div>
