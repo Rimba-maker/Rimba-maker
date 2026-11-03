@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 116" width="300" height="116">
+<g><animateTransform attributeName="transform" type="rotate" values="-1.6 150 58;1.6 150 58;-1.6 150 58" dur="3.4s" repeatCount="indefinite"/>
+<path d="M10 58 L40 22 H286 V94 H40 Z" fill="#E3C894" stroke="#2B2118" stroke-width="3.4" stroke-linejoin="round"/>
+<path d="M10 58 L40 22 H286 V94 H40 Z" fill="none" stroke="#2B2118" stroke-opacity=".18" stroke-width="1" transform="translate(0 -4)"/>
+<circle cx="46" cy="58" r="3.4" fill="#5A4A3A" stroke="#2B2118" stroke-width="1.2" opacity="0"/>
+<g transform="translate(62 60)"><rect x="-14" y="-6" width="28" height="22" fill="#D7CEDF" stroke="#2B2118" stroke-width="1.8"/><rect x="-20" y="-12" width="9" height="28" fill="#C9BED2" stroke="#2B2118" stroke-width="1.8"/><rect x="11" y="-12" width="9" height="28" fill="#C9BED2" stroke="#2B2118" stroke-width="1.8"/><polygon points="-23,-12 -15.5,-24 -8,-12" fill="#9A4F6A" stroke="#2B2118" stroke-width="1.6"/><polygon points="8,-12 15.5,-24 23,-12" fill="#9A4F6A" stroke="#2B2118" stroke-width="1.6"/><path d="M-5 16 V6 a5 5 0 0 1 10 0 V16Z" fill="#4A3550"/></g>
+<text x="170" y="64" text-anchor="middle" font-family="'Segoe Print','Bradley Hand','Comic Sans MS','Chalkboard SE',cursive" font-size="26" font-weight="700" fill="#3B2A1A" textLength="150" lengthAdjust="spacingAndGlyphs">LinkedIn</text>
+</g></svg>
