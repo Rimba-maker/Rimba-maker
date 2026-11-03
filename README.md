@@ -44,10 +44,13 @@
 
 <div align="center">
 
-[![Instagram](https://img.shields.io/badge/@ccbmantara-C85F34?style=for-the-badge&logo=Instagram&logoColor=white)](https://instagram.com/ccbmantara)
-[![Portfolio](https://img.shields.io/badge/rimba.dev-2F4A36?style=for-the-badge&logoColor=white)](https://rimba-dev.caesarbimantara00.workers.dev/)
+<img src="./assets/footer.webp" width="100%" alt="Clawd stands at a crossroads: the castle path leads to LinkedIn, the fairground to Instagram, the treehouse to my portfolio. Adios!"/>
 
-<br/>
+<a href="https://www.linkedin.com/in/caesar-bimantara-3a7087180"><img src="./assets/btn-linkedin.svg" width="270" alt="LinkedIn"/></a>
+<a href="https://instagram.com/ccbmantara"><img src="./assets/btn-instagram.svg" width="270" alt="Instagram"/></a>
+<a href="https://rimba-dev.caesarbimantara00.workers.dev/"><img src="./assets/btn-portfolio.svg" width="270" alt="Portfolio"/></a>
+
+<br/><br/>
 
 <sub>Clawd & animation kit by <a href="https://github.com/JohnHeibel/ClaudeAnimationBase">JohnHeibel/ClaudeAnimationBase</a> (MIT) · license in <code>assets/CLAWD-LICENSE.txt</code></sub>
 
